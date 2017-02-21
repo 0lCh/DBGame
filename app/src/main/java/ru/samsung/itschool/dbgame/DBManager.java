@@ -58,6 +58,37 @@ public class DBManager {
 		int c = cursor.getInt(0);
 		return c;
 	}
+	int sum(){
+		Cursor cursor = db.rawQuery("SELECT SUM(RESULTS.SCORE)   FROM RESULTS;", null);
+		cursor.moveToFirst();
+		int s = cursor.getInt(0);
+		return s;
+	}
+	int max(){
+		Cursor cursor = db.rawQuery("SELECT MAX(RESULTS.SCORE)   FROM RESULTS;", null);
+		cursor.moveToFirst();
+		int m = cursor.getInt(0);
+		return m;
+	}
+	int dbln(){
+		Cursor cursor = db.rawQuery("SELECT COUNT(DISTINCT(RESULTS.USERNAME))   FROM RESULTS;", null);
+		cursor.moveToFirst();
+		int d = cursor.getInt(0);
+		return d;
+	}
+	int even(){
+		Cursor cursor = db.rawQuery("SELECT COUNT(RESULTS.SCORE)    FROM RESULTS WHERE RESULTS.SCORE%2=0;", null);
+		cursor.moveToFirst();
+		int e = cursor.getInt(0);
+		return e;
+	}
+	int odd(){
+		Cursor cursor = db.rawQuery("SELECT COUNT(RESULTS.SCORE)    FROM RESULTS WHERE RESULTS.SCORE%2=1;", null);
+		cursor.moveToFirst();
+		int o = cursor.getInt(0);
+		return o;
+	}
+
 	private void createTablesIfNeedBe() {
 		db.execSQL("CREATE TABLE IF NOT EXISTS RESULTS (USERNAME TEXT, SCORE INTEGER);");
 	}

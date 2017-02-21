@@ -1,6 +1,7 @@
 package ru.samsung.itschool.dbgame;
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.view.animation.Animation;
@@ -30,7 +31,6 @@ public class MainActivity extends Activity {
 	}
 
 	public void play(View v) {
-
 		Animation play = AnimationUtils.loadAnimation(this, R.anim.fadin);
 
 		play.setAnimationListener(new AnimationListener() {
@@ -52,10 +52,10 @@ public class MainActivity extends Activity {
 						            Integer.parseInt(MainActivity.this.gameResult.getText().toString()));
 			}
 		});
-
-		gameResult.setText(((int) (Math.random() * 1001))+"");
+int gr = (int) (Math.random() * 1001);
+		if (gr%2==0) gameResult.setTextColor(Color.GREEN); else gameResult.setTextColor(Color.RED);
+		gameResult.setText(gr+"");
 		gameResult.startAnimation(play);
-
 	}
 
 	public void showHoF(View v) {

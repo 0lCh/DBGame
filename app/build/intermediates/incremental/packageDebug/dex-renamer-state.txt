@@ -1,7 +1,4 @@
-#Fri Feb 17 10:29:48 MSK 2017
-base.0=D\:\\ProgramFiles\\Android\\DBGame-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_4c316b4ec19ba61eea3da51c575fa585ac316d2a
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=D\:\\ProgramFiles\\Android\\DBGame-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_3ac027e5f20d79344c288c429c57bc7f2d93f08c\\classes.dex
-base.1=D\:\\ProgramFiles\\Android\\DBGame-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_3ac027e5f20d79344c288c429c57bc7f2d93f08c
-file.0=D\:\\ProgramFiles\\Android\\DBGame-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_4c316b4ec19ba61eea3da51c575fa585ac316d2a\\classes.dex
+#Tue Feb 21 14:07:01 MSK 2017
+base.0=D\:\\ProgramFiles\\Android\\DBGame-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=D\:\\ProgramFiles\\Android\\DBGame-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

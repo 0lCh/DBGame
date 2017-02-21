@@ -838,13 +838,15 @@ containing a value of this type.
         public static final int beginning=0x7f0b000f;
         public static final int checkbox=0x7f0b002d;
         public static final int collapseActionView=0x7f0b0014;
-        public static final int count=0x7f0b0044;
+        public static final int count=0x7f0b0048;
+        public static final int dbln=0x7f0b0046;
         public static final int default_activity_button=0x7f0b0028;
         public static final int dialog=0x7f0b0018;
         public static final int disableHome=0x7f0b0009;
         public static final int dropdown=0x7f0b0019;
         public static final int edit_query=0x7f0b0030;
         public static final int end=0x7f0b0010;
+        public static final int even=0x7f0b0045;
         public static final int expand_activities_button=0x7f0b0026;
         public static final int expanded_menu=0x7f0b002c;
         public static final int hallOfFame=0x7f0b0040;
@@ -855,10 +857,12 @@ containing a value of this type.
         public static final int image=0x7f0b0027;
         public static final int listMode=0x7f0b0006;
         public static final int list_item=0x7f0b0029;
+        public static final int max=0x7f0b0047;
         public static final int middle=0x7f0b0011;
         public static final int never=0x7f0b0016;
         public static final int none=0x7f0b0012;
         public static final int normal=0x7f0b0007;
+        public static final int odd=0x7f0b0044;
         public static final int playButton=0x7f0b0042;
         public static final int playerName=0x7f0b003e;
         public static final int progress_circular=0x7f0b0004;
@@ -882,6 +886,7 @@ containing a value of this type.
         public static final int split_action_bar=0x7f0b001e;
         public static final int statbutton=0x7f0b0041;
         public static final int submit_area=0x7f0b0039;
+        public static final int sum=0x7f0b0049;
         public static final int tabMode=0x7f0b0008;
         public static final int textView1=0x7f0b003d;
         public static final int title=0x7f0b002b;
